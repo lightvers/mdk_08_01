@@ -1,0 +1,55 @@
+@keyframes slide {
+    0% {
+        left: 0;
+        
+    }
+    50% {
+        left: 244px;
+
+    }
+    100% {
+        left: 488px;
+        
+    }
+}
+
+body {
+    color: #fff;
+    font: 600 24px;
+}
+.stage {
+    background: #ffffff;
+    border-radius: 6px;
+    height: 150px;
+    position: relative;
+    min-width: 538px;
+}
+.box  {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: .5s;
+    background: #2db34a;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    width: 95px;
+}
+.stage:hover .box {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: .5s;
+}
+.box:hover {
+    background: #ff7b29;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: .5s;
+}

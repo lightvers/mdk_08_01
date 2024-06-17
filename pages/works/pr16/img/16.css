@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links li:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown li {
+    width: 200px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-container input {
+    padding: 5px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.hero-text {
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 800px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.gallery-item {
+    text-align: center;
+    flex: 1;
+}
+
+.gallery-item img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.featured-recipe {
+    padding: 20px;
+    text-align: center;
+}
+
+.featured-recipe img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.about img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.about h2 {
+    margin: 0 0 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,10 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 240px;
+    border: thin solid rgb(165, 165, 165);
+    
+}

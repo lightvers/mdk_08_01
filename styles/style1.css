@@ -1,0 +1,101 @@
+.prew {
+    width: 450px;
+    height: 300px;
+}
+
+.content {
+    
+    display: flex;
+}
+
+.main {
+    width: 60%;
+}
+
+.aside {
+    width: 40%;
+}
+
+.taro {
+    background: url("../img/Taro_1.jpg");
+    background-size: cover;
+}
+
+.diplom1 {
+    background: url("../img/5f97ae77a95aff540afabf1af5171fdd.png");
+    background-size: cover;
+}
+
+.diplom2 {
+    background: url("../img/268efc33148263e4ac0b51df5d9bd95c.png");
+    background-size: cover;
+}
+
+.diplom3 {
+    background: url("../img/diplom-skillboksa-optimized.webp");
+    background-size: cover;
+}
+
+.new1 {
+    background: url("../img/mars_vremya.jpg");
+    background-size: cover;
+}
+
+.new2 {
+    background: url("../img/kartinki-son-1.jpg");
+    background-size: cover;
+}
+
+.new3 {
+    background: url("../img/1696417972_gas-kvas-com-p-kartinki-s-yedoi-1.jpg");
+    background-size: cover;
+}
+
+
+.b-text { color: rgb(95, 92, 77); 
+    background-color: rgb(255, 243, 216); line-height: 50px;padding: 10px;}
+
+.rtext {color: rgb(95, 92, 77); 
+    background-color: rgb(255, 243, 216); line-height: 20px;padding: 5px; margin-right: 15px; text-decoration: none; }
+
+.rrtext {color: rgb(95, 92, 77); line-height: 20px;padding: 5px; margin-right: 15px; text-decoration: none; 
+        background-color: rgb(255, 243, 216);   }   
+
+.top {color: rgb(95, 92, 77); line-height: 20px;padding: 5px; margin-right: 15px; text-decoration: none; 
+    background-color: rgb(255, 243, 216);
+   position: fixed;
+   bottom: 10px;
+   right:  10px;
+   padding:  10px;
+} 
+
+.a-text { color: rgb(184, 168, 126); 
+    background: rgb(226, 197, 128); line-height: 100px;padding: 10px; ;}
+
+.m-text { color: rgb(107, 99, 89);
+    background: rgb(199, 186, 155); line-height: 50px; padding: 10px; ;}
+
+
+ul li { 
+    display: inline-block;
+}
+ul { 
+    background: rgb(255, 242, 207);
+}
+
+.li {
+    padding: 10 px;
+}
+
+
+
+.flex1 {
+    display: flex; gap: 20px;
+}
+.main {
+    width: 70%;
+}
+.aside {
+    width: 30%;
+}
+

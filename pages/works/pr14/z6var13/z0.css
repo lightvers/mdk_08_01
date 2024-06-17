@@ -1,0 +1,25 @@
+.box-1 {   
+  background: #ffffff;     
+  height: 95px;   
+  line-height: 95px;   
+  text-align: center;   
+  width: 95px; 
+}
+
+.box-1 {
+  animation-name: wtob; 
+  animation-duration: 3s; 
+}
+
+@keyframes wtob {
+  0% {
+    background-color: white; 
+  }
+  100% {
+    background-color: black; 
+  }
+}
+
+
+
+

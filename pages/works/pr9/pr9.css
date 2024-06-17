@@ -1,0 +1,76 @@
+.set1 li{
+    color: blue;
+}
+.set2 li{
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    color: blue;
+}
+.set2 li:hover{
+    font-weight: bold;
+}
+.set2{
+    list-style-type: none;
+}
+.set3 li{
+    border: 1px solid rgb(43, 41, 41);
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    background-color: rgb(43, 41, 41);
+    color: white
+}
+.set3 li:hover{
+    font-weight: bold;
+    background-color: white;
+    color: darkgrey;
+}
+.set3{
+    list-style-type: none;
+}
+.set4 li:hover::before{ 
+    content: url(C://Users//student-a204//Desktop//Псевдоклассы//image//blue.png);  
+}
+.set4 li{
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    background-color: blue;
+    color: white
+}
+.set4 li:hover{
+    font-weight: bold;
+    background-color: white;
+    color: blue;
+}
+.set5 li{
+    border: 1px solid blue;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 10px;
+    width: 130px;
+    background-color: white;
+}
+.set5 li:hover{
+    font-weight: bold;
+    color: white;
+    background-color: darkgrey;
+}
+.set6 li{
+    border: 1px solid blue;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 10px;
+    width: 130px;
+    background-color: white;
+}
+.set6 li:hover{
+    font-weight: bold;
+    color: white;
+    background-color: darkgrey;
+}
